@@ -1,2 +1,4 @@
 
 yarn lint
+yarn prettierApp
+yarn prettier
