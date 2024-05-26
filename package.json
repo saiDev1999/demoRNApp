@@ -5,10 +5,12 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "lint": "eslint .",
+    "lint": "eslint src",  
     "start": "react-native start",
     "test": "jest",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prettier": "prettier --write 'src/**/*.js'",
+    "prettierApp": "prettier --write App.tsx"
   },
   "dependencies": {
     "@sentry/react-native": "^5.22.0",
